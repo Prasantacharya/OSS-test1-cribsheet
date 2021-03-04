@@ -23,3 +23,6 @@ TODO:
 
 ## Build
 TODO:
+
+## Regex
+Run through this tutorial as a refresher: https://regexone.com/
