@@ -139,7 +139,7 @@ list:
     * Creation:
     * Distribution:
 
-# Build
+# Build Systems
 
 
 
@@ -215,9 +215,112 @@ hello2.o: hello2.c
 
 
 
-## Cmake
+## CMake
 
-AHHHHHHHH
+CMake is a higher level **abstraction** of `make`, which allows us to generate complex and flexible Makefiles from a relatively simple `CMakeLists.txt`
+
+
+
+Example boilerplate `CMakeLists.txt`
+
+```cmake
+cmake_minimum_required(VERSION 3.10)
+
+# specify name/version
+project(Tutorial VERSION 1.0)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+configure_file(TutorialConfig.h.in TutorialConfig.h)
+add_executable(Tutorial tutorial.cxx)
+
+target_include_directories(Tutorial PUBLIC
+    "${PROJECT_BINARY_DIR}"
+    )
+
+```
+
+
+
+
+
+Here are some examples of high level patterns which can be simplified with CMake
+
+
+  ### Working with Libraries
+
+```cmake
+add_library(library_name [SHARED/STATIC] library.c library.h ...)
+add_executable(binary_name, source.c)
+target_link_libraries(binary_name, library_name)
+```
+
+
+
+### Conditionals
+
+```cmake
+option(FLAG_NAME "description" [ON/OFF])
+if(FLAG_NAME)
+	do_stuff()
+else()
+	do_other_stuff()
+endif()
+```
+
+
+
+### Working with Directories
+
+```cmake
+# macro representing the source directory (ie. the one with the CMakeLists.txt)
+"${PROJECT_SOURCE_DIR}"
+#macro representing the build directory (ie. the one which cmake is run from)
+"${PROJECT_BINARY_DIR}"
+
+# include a subdirectory of the directory containing your CMakeLists.txt to the CMake context
+add_subdirectory(SubDirectoryName)
+```
+
+
+
+
+
+### Passing Configuration Values Through Headers
+
+```cmake
+configure_file(header.h.in header.h)
+# tell cmake to add the directory containing header.h.in to our searchpath
+target_include_directories(ProjectName PUBLIC
+                           DIRECTORY
+                           )
+```
+
+
+
+### Functions/Macros
+
+```cmake
+function(function_name arg1 arg2 ...)
+	do_stuff()
+endfunction(function_name)
+```
+
+
+
+### Testing
+
+```cmake
+enable_testing()
+
+add_test(NAME TestName COMMAND ProgramName Arg1 Arg2 ...)
+set_tests_properties(TestName
+										PROPERTIES PASS_REGULAR_EXPRESSION "regex"
+										)
+```
+
+
 
 ## Regex
 Run through this tutorial as a refresher: https://regexone.com/
