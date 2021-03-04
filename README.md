@@ -30,16 +30,27 @@ TODO:
 ## Some git commands:
 
 **git add:**
+
 **git commit:**
+
 **git pull:**
+
 **git checkout:**
+
 **git branch:**
+
 **git push:**
+
 **git log:**
+
 **git status:**
+
 **git diff:**
+
 **git tag:**
+
 **git rebase:**
+
 **git merge:**
 
 
