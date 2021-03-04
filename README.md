@@ -27,18 +27,25 @@ TODO:
 # Git
 TODO:
 
-## Basic git commands
-| commands | how to execute  | what they do         |
-|:-------- |:--------------- | -------------------- |
-| clone    | git clone "url" | clones existing repo |
-| init     | git init        | creates git repo     |
-|          |                 |                      |
+## Some git commands:
+
+**git add:**
+**git commit:**
+**git pull:**
+**git checkout:**
+**git branch:**
+**git push:**
+**git log:**
+**git status:**
+**git diff:**
+**git tag:**
+**git rebase:**
+**git merge:**
 
 
 # Documentation
 TODO:
 
-<<<<<<< HEAD
 ## Markdown
 
 **basic markdown**
@@ -61,9 +68,9 @@ list:
 
 ## Github wiki
 
-# Lisence
+# License
 
-**Criteria for OSI lisence**
+**Criteria for OSI License**
 
   1. TODO
   2. TODO
@@ -74,29 +81,77 @@ list:
 
 **Open source vs Open Core**
 
-**table of lisences:**
+**License and characteristics:**
 
-| Licenses  | OSI/FOSS | Permissive |
-| :-------- | :------- | :--------- |
-| MIT       |          |            |
-| BSD-2     |          |            |
-| BSD-3     |          |            |
-| GPL-2     |          |            |
-| GPL-3     |          |            |
-| Apache    |          |            |
-| Unlicense |          |            |
+* **MIT:**
+  * characteristics:
+    * TODO
+  * How it affects project:
+    * Use:
+    * Creation:
+    * Distribution:
 
+* **BSD:**
+  * characteristics:
+    * TODO
+  * How it affects project:
+    * Use:
+    * Creation:
+    * Distribution:
+
+* **GPL:**
+  * characteristics:
+    * TODO
+  * How it affects project:
+    * Use:
+    * Creation:
+    * Distribution:
+
+* **LGPL:**
+  * characteristics:
+    * TODO
+  * How it affects project:
+    * Use:
+    * Creation:
+    * Distribution:
+
+* **AGPL:**
+  * characteristics:
+    * TODO
+  * How it affects project:
+    * Use:
+    * Creation:
+    * Distribution:
+
+* **Mozilla**
+  * characteristics:
+    * TODO
+  * How it affects project:
+    * Use:
+    * Creation:
+    * Distribution:
+
+* **Apache:**
+  * characteristics:
+    * TODO
+  * How it affects project:
+    * Use:
+    * Creation:
+    * Distribution:
 
 # Build
 
 ## Make
 
-*
+**Basics**:
+
+  1. TODO
+  2. TODO
+  3. TODO
 
 ## Cmake
 
 AHHHHHHHH
-=======
 
 ## Regex
 Run through this tutorial as a refresher: https://regexone.com/
