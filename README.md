@@ -38,6 +38,7 @@ TODO:
 # Documentation
 TODO:
 
+<<<<<<< HEAD
 ## Markdown
 
 **basic markdown**
@@ -95,3 +96,7 @@ list:
 ## Cmake
 
 AHHHHHHHH
+=======
+
+## Regex
+Run through this tutorial as a refresher: https://regexone.com/
