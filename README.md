@@ -141,13 +141,79 @@ list:
 
 # Build
 
+
+
+## Compiling Libraries
+
+### Object Files
+
+Object files are an intermediate step in compilation. They are *mostly* machine code, but have additional symbols used by the linker when linking to external libraries. 
+
+```bash
+cc -c source.c -o object.o
+```
+
+### Shared Libraries
+
+Shared libraries are linked **at runtime**
+
+Note: Shared libraries must be compiled as **address independent** objects (`-fPIC`)
+
+```bash
+cc -fPIC -c source1.c -o object1.o
+cc -fPIC -c source2.c -o object2.o
+...
+cc -shared -o libshared.so object1.o object2.o ...
+cc object.o libshared.so -o binary_out -Wl,-rpath='$ORIGIN'
+```
+
+
+
+### Static Libraries
+
+Static libraries are linked **at compile time**
+
+```bash
+ar qc libstatic.a object1.o object2.o ...
+cc object.o libstatic.a -o binary_out
+```
+
+
+
 ## Make
 
-**Basics**:
+A `Makefile` expresses **targets**, **dependencies**, and **commands**
 
-  1. TODO
-  2. TODO
-  3. TODO
+```makefile
+all: hi1 hi2
+hi1: hi1.o libhello.so
+        cc hi1.o libhello.so -o hi1 -Wl,-rpath='$$ORIGIN'
+hi2: hi2.o libhello.so
+        cc hi2.o libhello.so -o hi2 -Wl,-rpath='$$ORIGIN'
+hi1.o: hi1.c
+        cc -c hi1.c -o hi1.o
+hi2.o: hi2.c
+        cc -c hi2.c -o hi2.o
+libhello.so: hello1.o hello2.o
+        cc -shared -o libhello.so hello1.o hello2.o
+hello1.o: hello1.c
+        cc -fPIC -c hello1.c -o hello1.o
+hello2.o: hello2.c
+        cc -fPIC -c hello2.c -o hello2.o
+```
+
+* `all` is a **target**
+  * `all` is the default target when the command `make` is ran. I _think_ the `all` target is required for all Makefiles.
+* `hi1` and `hi2` are **dependencies** of `all`
+  * dependencies can be
+    1. targets (eg. `hi1`, `hi2`)
+    2. explicitly defined files (eg. `hello1.c`, `hello2.c`)
+       - changing an explicitly defined dependency **will** force the target to be rebuilt when `make` is re-ran
+    3. implicitly defined files (eg. `hello1.h`, `hello2.h`)
+       - changing an implicitly defined dependency **will not** force the target to be rebuilt when `make` is re-ran
+* `cc hi1.o libhello.so -o hi1 -Wl,-rpath='$$ORIGIN'` is a **command**
+
+
 
 ## Cmake
 
