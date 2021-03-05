@@ -23,53 +23,53 @@ Cribsheet for exam 1 of OSS
 
 **Regex rules:**
 
-abc…	Letters
+    abc…	Letters
 
-123…	Digits
+    123…	Digits
 
-\d	Any Digit
+    \d	Any Digit
 
-\D	Any Non-digit character
+    \D	Any Non-digit character
 
-.	Any Character
+    .	Any Character
 
-\.	Period
+    \.	Period
 
-[abc]	Only a, b, or c
+    [abc]	Only a, b, or c
 
-[^abc]	Not a, b, nor c
+    [^abc]	Not a, b, nor c
 
-[a-z]	Characters a to z
+    [a-z]	Characters a to z
 
-[0-9]	Numbers 0 to 9
+    [0-9]	Numbers 0 to 9
 
-\w	Any Alphanumeric character
+    \w	Any Alphanumeric character
 
-\W	Any Non-alphanumeric character
+    \W	Any Non-alphanumeric character
 
-{m}	m Repetitions
+    {m}	m Repetitions
 
-{m,n}	m to n Repetitions
+    {m,n}	m to n Repetitions
 
-\*	Zero or more repetitions
+    \*	Zero or more repetitions
 
-\+	One or more repetitions
+    \+	One or more repetitions
 
-?	Optional character
+    ?	Optional character
 
-\s	Any Whitespace
+    \s	Any Whitespace
 
-\S	Any Non-whitespace character
+    \S	Any Non-whitespace character
 
-^…$	Starts and ends
+    ^…$	Starts and ends
 
-(…)	Capture Group
+    (…)	Capture Group
 
-(a(bc))	Capture Sub-group
+    (a(bc))	Capture Sub-group
 
-(.\*)	Capture all
+    (.\*)	Capture all
 
-(abc\|def)	Matches abc or def
+    (abc\|def)	Matches abc or def
 
 
 # Git
