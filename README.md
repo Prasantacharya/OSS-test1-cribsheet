@@ -22,53 +22,55 @@ TODO:
 ## Random things:
 
 **Regex rules:**
-> abc…	Letters
 
-> 123…	Digits
+abc…	Letters
 
-> \d	Any Digit
+123…	Digits
 
-> \D	Any Non-digit character
+\d	Any Digit
 
-> .	Any Character
+\D	Any Non-digit character
 
-> \.	Period
+.	Any Character
 
-> [abc]	Only a, b, or c
+\.	Period
 
-> [^abc]	Not a, b, nor c
+[abc]	Only a, b, or c
 
-> [a-z]	Characters a to z
+[^abc]	Not a, b, nor c
 
-> [0-9]	Numbers 0 to 9
+[a-z]	Characters a to z
 
-> \w	Any Alphanumeric character
+[0-9]	Numbers 0 to 9
 
-> \W	Any Non-alphanumeric character
+\w	Any Alphanumeric character
 
-> {m}	m Repetitions
+\W	Any Non-alphanumeric character
 
-> {m,n}	m to n Repetitions
+{m}	m Repetitions
 
-> \*	Zero or more repetitions
+{m,n}	m to n Repetitions
 
-> \+	One or more repetitions
+\*	Zero or more repetitions
 
-> ?	Optional character
+\+	One or more repetitions
 
-> \s	Any Whitespace
+?	Optional character
 
-> \S	Any Non-whitespace character
+\s	Any Whitespace
 
-> ^…$	Starts and ends
+\S	Any Non-whitespace character
 
-> (…)	Capture Group
+^…$	Starts and ends
 
-> (a(bc))	Capture Sub-group
+(…)	Capture Group
 
-> (.*)	Capture all
+(a(bc))	Capture Sub-group
 
-> (abc|def)	Matches abc or def
+(.\*)	Capture all
+
+(abc\|def)	Matches abc or def
+
 
 
 # Git
@@ -189,7 +191,7 @@ Open Source and Free Software
 
 * **LGPL:**
   * characteristics:
-    * **Lesser:** Some elements of Permissive, and Copy left.
+    * **Lesser:** Some elements of Permissive, and Copy left. 
   * How it affects project:
     * Use:
     * Creation:
