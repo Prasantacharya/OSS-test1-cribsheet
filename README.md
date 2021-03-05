@@ -80,29 +80,42 @@ TODO:
 
 ## Some git commands:
 
-**git add:**
+[Turner's Git Cheat Sheet](https://github.com/rcos/CSCI-4470-OpenSource/blob/d4e7d27a040963333df71808298eb24c1582fd3a/Modules/02.Git/cheat_sheet_git_final.pdf)
 
-**git commit:**
+**git add:** Adds a file to be tracked by git. Do this after you edit a file
 
-**git pull:**
+**git commit:** Commits your changes to your local repository (on your computer)
 
-**git checkout:**
+**git push:** Transfer your commit to the remote repository
 
-**git branch:**
+**git pull:** Update your local repository with changes made on the remote one
 
-**git push:**
+**git checkout:** Allows you to switch to another branch (git checkout branch_name)
 
-**git log:**
+**git branch:** Shows the available branches. Create a new one with (git branch branch_name)
 
-**git status:**
+**git log:** Shows the history of the repo (commits, merges, etc)
 
-**git diff:**
+**git status:** Tells you your current branch, and if you have any changes to commit
 
-**git tag:**
+**git diff:** Shows you the changes made to a file, if there is a difference between your local file and the last commit you have saved
 
-**git rebase:**
+**git tag:** Lists the existing tags. To add a tag to the current commit, do (git tag v1.0). To get details on the v1.0 tag, do (git show v1.0)
 
-**git merge:**
+**git rebase:** Takes and old branch, and adds it on to another commit as if it were branched off of that one. This is useful when the master branch has progressed since you started working on a feature branch, and you want to add the latest updates from the master branch to your branch. The image below shows a branch being rebased.
+
+![image](https://i.gyazo.com/d3f963d469404f3086bc87b4937ddd44.png)
+
+**git merge:** Combines branches. Doing (git merge feature_branch) while in the master branch will merge it into the master branch. Git usually handles any conflicts in the files, but if two people changed the same lines there will be conflicts. Conflicts are marked in the file with conflicts, and they look like this:
+```
+If you have questions, please
+<<<<<<< HEAD
+open an issue
+=======
+ask your question in IRC.
+>>>>>>> branch-a
+```
+To resolve them, edit the file and remove the stuff you don't want (like the <<<, ===, \>\>\>, and the code you don't want to keep)
 
 
 # Documentation
