@@ -17,8 +17,6 @@ Cribsheet for exam 1 of OSS
 
 # OSS
 
-TODO:
-
 ## OSS development
 
 ## Random things:
@@ -74,9 +72,7 @@ abc…	Letters
 (abc\|def)	Matches abc or def
 
 
-
 # Git
-TODO:
 
 ## Some git commands:
 
@@ -119,7 +115,6 @@ To resolve them, edit the file and remove the stuff you don't want (like the <<<
 
 
 # Documentation
-TODO:
 
 # Community
 ##### Tools to run a community:
@@ -193,22 +188,54 @@ TODO:
 **basic markdown**
 ```
 # title
-# subtitle
+## subtitle
+### subsubsubtitle
+
 
 insert picture: ![](~/Path/To/image.png)
 
-hyperlink:
+hyperlink: [this is the link](url)
 
 list:
 
 1. item 1
 2. item 2
 
+unlisted:
+
+* item 1
+* item 2
+
+block of text:
+\```
+  this is now a block of text
+\```
+
 ```
 
 ## Latex
 
+```Latex
+%%% comment
+
+$mathmode^{raise something}_{lower something}$
+\\
+\\
+math symbols as such:\\
+$\sqrt{2}$\\
+$\Sigma$\\
+$\theta$
+```
+
 ## Github wiki
+
+A github wiki is editable as markdown files, and can be cloned, pulled, pushed, etc. like any other repo
+
+example:
+
+```bash
+ git clone https://github.com/rcos/CSCI-4470-OpenSource.wiki.git
+```
 
 # License
 
