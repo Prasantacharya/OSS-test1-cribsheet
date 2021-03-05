@@ -13,7 +13,7 @@ Cribsheet for exam 1 of OSS
 
 [Licenses](#License)
 
-[Build Systems](#Build Systems)
+[Build Systems]("#Build")
 
 # OSS
 
@@ -299,7 +299,7 @@ can search more under [tldrLegal](https://tldrlegal.com/)
   * Open core: software that has some open kernel of source, but has everything else as closed or proprietary
 
 
-# Build Systems
+# Build
 
 ## Compiling Libraries
 
