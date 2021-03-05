@@ -84,6 +84,8 @@ list:
 Open Source and Free Software
 ---
 
+**OSS License terms apply with distribution not use**
+
 **10 requirements for Open Source:**
 
 1. **Free Redistribution:** no restriction from selling or giving away the software as a component of an aggregate software distribution. License should not require royalty or fee
@@ -112,6 +114,10 @@ Open Source and Free Software
   2. Freedom to **study** how the program works, change it
   3. Freedom to **redistribute** copies to others
   4. Freedom to **distribute modified versions** to others
+
+**Traditional procurement:**
+
+![](traditional-process.png)
 
 **Open source vs Public domain**
 
