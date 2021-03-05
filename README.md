@@ -212,13 +212,13 @@ Open Source and Free Software
 
 3. **Derivative works:** allows for derivative works under the same terms as the original software
 
-4. **Integrity of the Author's source code:**
+4. **Integrity of the Author's source code:** can restrict in cases of distribution of patch files that modify the code
 
 5. **No discrimination against persons or groups**
 
 6. **No discrimination against fields or endeavor**
 
-7. **Distribution of License:**
+7. **Distribution of License:** rights to program apply to all who the program is redistributed without the need for execution of an additional license by those parties
 
 8. **License must not be specific to a product**
 
@@ -246,9 +246,11 @@ Open Source and Free Software
 
 **License and characteristics:**
 
+can search more under [tldrLegal](https://tldrlegal.com/)
+
 * **MIT:**
   * characteristics:
-    * **Permissive license:** minimal requirements for how the software can be redistributed. **Can** use, distribute, and modify freely. Must include copyright and license notice where it is used. **Cannot** hold liable
+    * **Permissive license:** minimal requirements for how the software can be redistributed. **Can** use, distribute, and modify freely. **Must** include copyright and license notice where it is used. **Cannot** hold liable
 
 * **BSD:**
   * characteristics:
@@ -256,41 +258,25 @@ Open Source and Free Software
 
 * **GPL:**
   * characteristics:
-    * **Copy left:**
+    * **Copy left:** program is free, but requires all modified and extended versions to be free as well (this case, specifically under the GPL). **can** copy distribute, modify. Must have modifications under GPL. **Cannot** hold liable, or sub license.
 
 * **LGPL:**
   * characteristics:
-    * **Lesser:** Some elements of Permissive, and Copy left. 
-  * How it affects project:
-    * Use:
-    * Creation:
-    * Distribution:
+    * **Lesser:** Some elements of Permissive, and Copy left. Similar to **GPL**, except applications that use this library dont have to be LGPL
 
 * **AGPL:**
   * characteristics:
-    * **Copy Left**
-    * Like GPL but distribution also includes the public accessing that software
-  * How it affects project:
-    * Use:
-    * Creation:
-    * Distribution:
+    * **Copy Left:** Like GPL but distribution also includes the public accessing that software
 
 * **Mozilla**
   * characteristics:
-    * **Lesser**
-  * How it affects project:
-    * Use:
-    * Creation:
-    * Distribution:
+    * **Lesser:** Is copyleft, but not strongly. **Must** make source code changes available under MPL, but can combine MPL software and proprietary, along as MPL is separate files.
 
 * **Apache:**
   * characteristics:
-    * **Permissive**
+    * **Permissive**: Can do whatever you like, as long as you include required notices.
     * Includes patents provisions with its license
-  * How it affects project:
-    * Use:
-    * Creation:
-    * Distribution:
+    * Note: Apache 1.1 and 1.0 requires acknowledgment of trademark that 2.0 does not require
 
 **Fake Open Source"**
   * Open washing: saying a product/company is free when it is not. Appearing to be open but using proprietary practices
