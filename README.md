@@ -81,12 +81,37 @@ list:
 
 # License
 
-**Criteria for OSI License**
+Open Source and Free Software
+---
 
-  1. TODO
-  2. TODO
-  3. TODO
-  4. TODO
+**10 requirements for Open Source:**
+
+1. **Free Redistribution:** no restriction from selling or giving away the software as a component of an aggregate software distribution. License should not require royalty or fee
+
+2. **Source Code:** Source code must be available, not obfuscated, and easy to modify.
+
+3. **Derivative works:** allows for derivative works under the same terms as the origional software
+
+4. **Integrity of the Author's source code:**
+
+5. **No discrimination against persons or groups**
+
+6. **No discrimination against fields or endeavor**
+
+7. **Distribution of License:**
+
+8. **License must not be specific to a product**
+
+9. **License must not restrict other software**
+
+10. **License must be technology-Neutral**
+
+**4 freedoms of Free Software**
+
+  1. Freedom to **run** the program as you with for any purpose
+  2. Freedom to **study** how the program works, change it
+  3. Freedom to **redistribute** copies to others
+  4. Freedom to **distribute modified versions** to others
 
 **Open source vs Public domain**
 
@@ -152,13 +177,11 @@ list:
 
 # Build Systems
 
-
-
 ## Compiling Libraries
 
 ### Object Files
 
-Object files are an intermediate step in compilation. They are *mostly* machine code, but have additional symbols used by the linker when linking to external libraries. 
+Object files are an intermediate step in compilation. They are *mostly* machine code, but have additional symbols used by the linker when linking to external libraries.
 
 ```bash
 cc -c source.c -o object.o
