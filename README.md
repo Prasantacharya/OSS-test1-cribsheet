@@ -9,6 +9,8 @@ Cribsheet for exam 1 of OSS
 
 [Documentation](#Documentation)
 
+[Community](#Community)
+
 [Licenses](#Lisence)
 
 [Build Systems](#Build)
@@ -105,6 +107,73 @@ TODO:
 
 # Documentation
 TODO:
+
+# Community
+##### Tools to run a community:
+- website
+- developer mailing list
+- version control
+- issue tracker
+
+##### Tools for communcation:
+- Mail Archives
+- Forums
+- Questions and Answers as in Stackoverflow
+- Blogs, Syndication
+- Social Networking, Microblogging
+- screen casts
+-  videos - youtube/vimeo
+- version control system
+- Management of Intellectual Property
+
+##### Roles in an open source project:
+- writing code
+- Documentation Writers
+- Translators
+- website designers
+- GUI designers
+- Communications people
+
+##### Particpating in Open Source Community
+- Estimate your time commitment
+- Check your employment contract.
+- Show your enthusiasm
+
+##### Get to Know your community
+- Understand how the community communicates
+- Understand how the community is governed
+- Understand the role of constructive criticism
+- Get to know the people
+- Understand the communication Channels
+- Learn about "Poisonous People"
+
+##### Engage
+
+- Communicate what you are working on
+- Acknowledge resources you use and their creators
+- Give back
+- Plan an exit strategy
+- Retire Gracefully
+
+##### Sustainable Open Source
+
+- Reaching sustainability
+- Product Development
+  - Large market share (support, training, customization, search engines)
+  - Hardware companies give out free drivers
+  - Software companies who utilize open source components
+  - Dual licensing model - open source version and a proprietary version.
+
+
+##### Non Profit Open Development
+
+- Free Software Foundation
+- The Eclipse Foundation
+- The Gnome Foundation
+- The Mozilla Foundation
+- The Python Foundation
+- The Linux Foundation
+
 
 ## Markdown
 
