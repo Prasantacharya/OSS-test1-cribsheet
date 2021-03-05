@@ -11,9 +11,9 @@ Cribsheet for exam 1 of OSS
 
 [Community](#Community)
 
-[Licenses](#Lisence)
+[Licenses](#License)
 
-[Build Systems](#Build)
+[Build Systems](#Build Systems)
 
 # OSS
 
