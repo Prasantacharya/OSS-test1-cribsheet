@@ -51,9 +51,9 @@ Cribsheet for exam 1 of OSS
 
     {m,n}	m to n Repetitions
 
-    \*	Zero or more repetitions
+    *	Zero or more repetitions
 
-    \+	One or more repetitions
+    +	One or more repetitions
 
     ?	Optional character
 
@@ -67,9 +67,9 @@ Cribsheet for exam 1 of OSS
 
     (a(bc))	Capture Sub-group
 
-    (.\*)	Capture all
+    (.*)	Capture all
 
-    (abc\|def)	Matches abc or def
+    (abc|def)	Matches abc or def
 
 
 # Git
