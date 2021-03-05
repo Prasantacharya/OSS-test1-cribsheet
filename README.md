@@ -13,7 +13,7 @@ Cribsheet for exam 1 of OSS
 
 [Licenses](#License)
 
-[Build Systems]("#Build")
+[Build Systems](#Build)
 
 # OSS
 
