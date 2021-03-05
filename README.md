@@ -92,7 +92,7 @@ Open Source and Free Software
 
 2. **Source Code:** Source code must be available, not obfuscated, and easy to modify.
 
-3. **Derivative works:** allows for derivative works under the same terms as the origional software
+3. **Derivative works:** allows for derivative works under the same terms as the original software
 
 4. **Integrity of the Author's source code:**
 
@@ -121,37 +121,28 @@ Open Source and Free Software
 
 **Open source vs Public domain**
 
-**Open source vs Open Core**
+  * ***PUBLIC DOMAIN IS NOT OPEN SOURCE***
+    * No owner with public domain
+      * Does not require anything to use
+        * things like software that was in the public domain being sold back with a proprietary license can happen
 
 **License and characteristics:**
 
 * **MIT:**
   * characteristics:
-    * TODO
-  * How it affects project:
-    * Use:
-    * Creation:
-    * Distribution:
+    * **Permissive license:** minimal requirements for how the software can be redistributed. **Can** use, distribute, and modify freely. Must include copyright and license notice where it is used. **Cannot** hold liable
 
 * **BSD:**
   * characteristics:
-    * TODO
-  * How it affects project:
-    * Use:
-    * Creation:
-    * Distribution:
+    * **Permissive License:** minimal requirements for how the software can be redistributed, so long as BSD copyright and full text of the license. **Cannot** hold liable, or use in trademark
 
 * **GPL:**
   * characteristics:
-    * TODO
-  * How it affects project:
-    * Use:
-    * Creation:
-    * Distribution:
+    * **Copy left:**
 
 * **LGPL:**
   * characteristics:
-    * TODO
+    * **Lesser:** Some elements of Permissive, and Copy left. 
   * How it affects project:
     * Use:
     * Creation:
@@ -159,7 +150,8 @@ Open Source and Free Software
 
 * **AGPL:**
   * characteristics:
-    * TODO
+    * **Copy Left**
+    * Like GPL but distribution also includes the public accessing that software
   * How it affects project:
     * Use:
     * Creation:
@@ -167,7 +159,7 @@ Open Source and Free Software
 
 * **Mozilla**
   * characteristics:
-    * TODO
+    * **Lesser**
   * How it affects project:
     * Use:
     * Creation:
@@ -175,11 +167,20 @@ Open Source and Free Software
 
 * **Apache:**
   * characteristics:
-    * TODO
+    * **Permissive**
+    * Includes patents provisions with its license
   * How it affects project:
     * Use:
     * Creation:
     * Distribution:
+
+**Fake Open Source"**
+  * Open washing: saying a product/company is free when it is not. Appearing to be open but using proprietary practices
+  * Fauxpen Source: Software that caims to be open source, but lacks full freedoms in the Open source definition
+  * Nop-in Source: Software that invokes benefits/values of open source, but places restrictions on users
+  * Post open source: "Its on github so its open source"
+  * Open core: software that has some open kernel of source, but has everything else as closed or proprietary
+
 
 # Build Systems
 
